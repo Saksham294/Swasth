@@ -1,0 +1,37 @@
+.accountContainer{
+
+    width: 500px;
+    height: 500px;
+    margin-left: 33%;
+}
+
+.accountContainer>h3{
+
+    font-family: 'Lato';
+    font-weight: 500;
+
+}
+
+.userAvatar{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+margin-left: 25%;
+    margin-top: 10%;
+}
+
+.appointmentBtn{
+margin-left: 40%;
+}
+
+.appointmentBtn>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+
+
+    border-radius: 5px;
+
+}

@@ -1,0 +1,158 @@
+.card{
+width: 460px;
+    display: inline-block;
+    height: 100%;
+    border-radius: 5%;
+    background-color: #f3f3f3;
+    margin-left: 6rem;
+    margin-top: 10rem;
+}
+
+.name{
+text-align: center;
+
+}
+.desc{
+margin-top: 3rem;
+}
+
+.follow{
+
+    width: 400px;
+
+}
+.follow:hover{
+    background-color: #FF3B3F;
+}
+.follows{
+
+    display: flex;
+    margin-top: -1rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.followers{
+font-weight: 500;
+font-size: 22px;
+    margin-left: 8rem;
+
+}
+.following{
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 4rem;
+}
+
+.countFollowers{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+.countFollowing{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+.rightSection{
+
+    margin-left: 5rem;
+    margin-top: 3rem;
+width: 50%;
+
+border-radius: 20px;
+
+}
+.rightSection>h6{
+    margin-top: 1rem;
+text-align: center;
+}
+.rightSection>h1{
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.containerBox{
+    display: flex;
+}
+.socials{
+
+padding-left: 10rem;
+display: flex;
+margin-top: 0rem;
+}
+.fbicon{
+   /*  border: 2px solid black;*/
+margin-left: 0rem;
+
+}
+.instaicon{
+     /*  border: 2px solid black;*/
+    margin-left: 2rem;
+}
+.twticon{
+  /*  border: 2px solid black;*/
+    margin-left: 2rem;
+}
+.fbicon:hover{
+    cursor: pointer;
+    color: #087cfc
+}
+.instaicon:hover{
+    cursor: pointer;
+    color: #087cfc
+}
+.twticon:hover{
+    cursor: pointer;
+    color: #087cfc
+}
+
+.followersBtn{
+    text-decoration: none;
+    border: transparent;
+    background-color: transparent;
+}
+.followersBtn:hover{
+    cursor: pointer;
+}
+.followingsBtn{
+    text-decoration: none;
+    border: transparent;
+    background-color: transparent;
+}
+.followingsBtn:hover{
+    cursor: pointer;
+}
+
+.db{
+    height: 500px;
+width: 300px;
+}
+.db>h4{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .card{
+        display: block;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+  
+    .account-icon{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .containerBox{
+        display: block;
+    }
+  .rightSection{
+    margin-left: 9rem;
+  }
+  .rightSection>h6{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  font-family: 'Montserrat', cursive;
+  font-weight: 500;
+  background-color: white;
+  font-size: 16px;
+  padding-left: 770px;
+
+
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+
+}
+
+.nav>div {
+  margin-left: 40px;
+  margin-top: 40px;
+  color: black;
+  margin-bottom: 30px;
+
+}
+
+/*.nav>div:hover{
+    cursor: pointer;
+    color:#FF3B3F ;
+  }*/
+.nav>div {
+  display: inline-block;
+  position: relative;
+  color: black;
+
+}
+
+.nav>div:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+  background-color: #ff7464;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.nav>div:hover {
+  color: #ff7464;
+  cursor: pointer;
+}
+
+.nav>div:hover:after {
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*WriterZinga
+        Color palette:
+        Sky:#CAEBF2
+        Carbon:#A9A9A9
+        Watermelon:#FF3B3F
+        Neutral:#EFEFEF
+        */
+
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: #ff7464;
+}
+
+.newpost {
+
+  display: inline-block;
+  border-radius: 100px;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.newpost>button {
+  height: 3rem;
+  border-radius: 100px;
+}
+
+.navMain {
+  display: flex;
+}
+
+.login {
+
+  font-family: 'Montserrat', cursive;
+  font-weight: 500;
+  background-color: white;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-top: 39px;
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.login:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+  background-color: #ff7464;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.login:hover {
+  color: #ff7464;
+  cursor: pointer;
+}
+
+.login:hover:after {
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    padding-left: 5rem;
+  }
+
+  .socialsmedia {
+    margin-left: 12rem;
+  }
+
+
+}

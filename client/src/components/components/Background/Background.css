@@ -1,0 +1,65 @@
+.bg{
+    height: 700px;
+    width: 1500px;
+    background-color: white;
+
+
+}
+.bg>img{
+    height: 600px;
+    width: 700px;
+    margin-left: 2rem;
+
+}
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 53%;
+font-size: 10rem;
+font-family: "Momcake";
+color:#8000ff  ;
+
+}
+.centered2{
+    position: absolute;
+    top: 65%;
+
+
+font-size: 1.6rem;
+    left: 51%;
+
+font-family: 'Montserrat';
+color:   #ff7464;
+}
+/*
+  Bright Red: #DE354C
+      Deep Red: #932432
+      Pure Purple: #3C1874
+      Purple Tinged Grey: #283747
+      Cloud: #F3F3F3*/
+
+      @media screen and (max-width: 600px){
+        .bg{
+
+width: 400px;
+height: 500px;
+        }
+        .bg>img{
+            width: 400px;
+            height: 400px;
+            margin-bottom: 0;
+        }
+        .centered{
+            top: 40%;
+            left: 60%;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+        .centered2{
+            top: 50%;
+            left: 60%;
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+      }

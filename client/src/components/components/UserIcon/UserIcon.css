@@ -1,0 +1,24 @@
+.usericonbox{
+
+
+
+display: flex;
+
+margin-bottom: 2px;
+}
+.usericonbox:hover{
+
+    display: inline-block;
+    cursor: pointer;
+}
+.userIcon{
+    display: flex;
+}
+.userIcon>p{
+    /* border: 2px solid black; */
+       margin-top: 0.5rem;
+       margin-left: 1rem;
+   }
+.userIcon>.userImage{
+margin-left: 0.8rem;
+}

@@ -1,0 +1,80 @@
+p{
+    font-family: 'Lato';
+    font-size: 1rem;
+    text-align: center;
+padding-bottom: 2rem;
+    color: rgb(107, 107, 107);
+}
+
+.footerbg{
+    background-color: #ffffff;
+
+}
+
+
+.tabs{
+
+}
+.tabsList{
+    text-decoration: none;
+    display: flex;
+
+
+    margin-left: 33rem;
+}
+.socialsmedia{
+margin-left: 39rem;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.fbicon2{
+    /*  border: 2px solid black;*/
+ margin-left: 0rem;
+ }
+ .instaicon2{
+      /*  border: 2px solid black;*/
+     margin-left: 2rem;
+ }
+ .twticon2{
+   /*  border: 2px solid black;*/
+     margin-left: 2rem;
+ }
+ .fbicon2:hover{
+     cursor: pointer;
+     color: #087cfc
+ }
+ .instaicon2:hover{
+     cursor: pointer;
+     color: #087cfc
+ }
+ .twticon2:hover{
+     cursor: pointer;
+     color: #087cfc
+ }
+ 
+
+
+.tabsList>li{
+    text-decoration: none;
+    list-style: none;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    color: rgb(58, 58, 58);
+
+
+
+}
+.tabsList>li:hover{
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    .tabsList{
+        margin-left: 6rem;
+    }
+    .socialsmedia{
+        margin-left: 12rem
+        ;}
+}

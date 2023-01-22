@@ -1,0 +1,64 @@
+.bodyHeading1{
+text-align: center;
+}
+
+.bodyHeading1>h2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: rgb(136, 0, 255);
+    
+}
+
+.bodyBox1{
+    display: flex;
+    /* border: 2px solid blue; */
+    padding-left: 8rem;
+    color: rgb(255, 140, 0);
+}
+
+.img1{
+    width: 500px;
+    height: 500px;
+
+}
+
+.contentBox1{
+    width: 500px;
+    margin-left: 10rem;
+    padding-top: 10rem;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.contentBox1>h4{
+    font-family:"Lato"
+}
+
+.bodyBox2{
+    display: flex;
+    /* border: 2px solid blue; */
+    padding-left: 8rem;
+    color: rgb(133, 12, 255);
+}
+
+.img2{
+    width: 500px;
+    height: 500px;
+
+}
+
+.contentBox2{
+    width: 500px;
+    margin-left: 1rem;
+    padding-top: 10rem;
+    padding-right: 8rem;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.contentBox2>h4{
+    font-family:"Lato"
+}
+
+.img3{
+    width: 600px;
+    height: 500px;
+}
